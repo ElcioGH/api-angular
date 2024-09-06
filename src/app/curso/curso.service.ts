@@ -14,7 +14,7 @@ export class CursoService {
   url = "http://localhost/api/php/";
 
   // Vetor
-  vetor!: Curso[];
+  vetor: Curso[] = [];
 
   // Construtor
   constructor(private http: HttpClient) { }

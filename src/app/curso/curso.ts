@@ -1,8 +1,10 @@
 //Classe
-export class Curso{
+export class Curso {
+  nomeCurso: string;
+  valorCurso: number;
 
-  // Atributos
-  nomeCurso!:string; valorCurso!:number; idCurso?:number;
-
-  
+  constructor(nomeCurso: string, valorCurso: number) {
+    this.nomeCurso = nomeCurso;
+    this.valorCurso = valorCurso;
+  }
 }
